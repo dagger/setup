@@ -1,6 +1,6 @@
 # Setup Module
 
-This [toolchain](https://docs.dagger.io/core-concepts/toolchains) helps you get started with Dagger in your project.
+This Dagger module helps you setup Dagger in your workspace.
 
 It provides [checks](https://docs.dagger.io/core-concepts/checks) to walk you through adopting Dagger in your project.
 
@@ -8,12 +8,9 @@ It provides [checks](https://docs.dagger.io/core-concepts/checks) to walk you th
 
 1. [Install Dagger](https://docs.dagger.io/getting-started/installation)
 
-2. Install this [toolchain](https://docs.dagger.io/core-concepts/toolchains) in your project
+2. Install this module
 
 ```shell
-# From the root of your projects repository
-dagger init
-
 dagger toolchain install github.com/dagger/setup
 ```
 
